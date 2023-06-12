@@ -28,6 +28,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Autowired
 	private AuthEntryPointJwt unauthorizedHandler;
 	
+	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http.cors().and()
